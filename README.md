@@ -24,7 +24,27 @@ Generally speaking, the purpose of this repo is to demonstrate what is possible 
 |API Call|Description|
 |--------|-----------|
 |[Open Weather 'Current Weather Data' API](https://openweathermap.org/current)| This API call returns various data based on the input latitude and longitude. For this project, I was interested in the `date`, `country`, `max temp`, `humidity`, `cloudiness`, and `wind speed`. 
-|[Google Maps Platform 'Maps JavaScript API'](https://developers.google.com/maps/documentation/javascript/overview)| This API was used to generate heatmaps based on data from this project. It was also used to display markers at specific locations in conjunction with the heatmap. This was accomplished by utilizing its layering feature.|
+|[Google Maps Platform 'Maps JavaScript API'](https://developers.google.com/maps/documentation/javascript/overview)| This API was used to generate heatmaps based on data from this project. It was also used to display markers at specific locations in conjunction with the heatmap. This was accomplished by utilizing its layering feature. In order to display this in a JupyterNotebook, the gmaps library was used.|
 |[Google Maps Platform 'Places API'](https://developers.google.com/maps/documentation/places/web-service/overview)| This API was used to find hotels based on proximity to provided locational data. The returned information was then used as the markers on the second heatmap utilized in this project|
 
 A secondary objective of this project was to view and analyze the returned weather data form any sort of hemispheric significance. All locational data was generated with this hemispheric analysis in mind, the results of which are best viewed in the [Hemispheric Analsysis Notebook](hemispherical_analysis.ipynb) as there are indepth reasonings and explanations behind the plots generated and their resulting analysis. 
+
+## Dependencies
+In order to fully utilize this repo, these libraries/modules were utilized:
+
+|Dependancy|ver|
+|----------|---|
+|[Matplotlib](https://matplotlib.org/)|3.5.1|
+|[NumPy](https://numpy.org/)|1.21.5|
+|[pandas](https://pandas.pydata.org/)|1.4.2|
+|[Requests](https://requests.readthedocs.io/en/latest/)|2.27.1|
+|[SciPy](https://scipy.org/)|1.7.3|
+|[citipy](https://github.com/wingchen/citipy)|0.0.5|
+|[gmaps](https://github.com/pbugnion/gmaps)|0.9.0|
+
+Utilizing IPython 8.2.0 running Jupyter Notebook 6.4.8
+
+## Resources/ Acknolwgedments
+
+##### © 2022 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+##### Google and OpenWeather API services & Documentation
