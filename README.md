@@ -23,3 +23,8 @@ Generally speaking, the purpose of this repo is to demonstrate what is possible 
 
 |API Call|Description|
 |--------|-----------|
+|[Open Weather 'Current Weather Data' API](https://openweathermap.org/current)| This API call returns various data based on the input latitude and longitude. For this project, I was interested in the `date`, `country`, `max temp`, `humidity`, `cloudiness`, and `wind speed`. 
+|[Google Maps Platform 'Maps JavaScript API'](https://developers.google.com/maps/documentation/javascript/overview)| This API was used to generate heatmaps based on data from this project. It was also used to display markers at specific locations in conjunction with the heatmap. This was accomplished by utilizing its layering feature.|
+|[Google Maps Platform 'Places API'](https://developers.google.com/maps/documentation/places/web-service/overview)| This API was used to find hotels based on proximity to provided locational data. The returned information was then used as the markers on the second heatmap utilized in this project|
+
+A secondary objective of this project was to view and analyze the returned weather data form any sort of hemispheric significance. All locational data was generated with this hemispheric analysis in mind, the results of which are best viewed in the [Hemispheric Analsysis Notebook](hemispherical_analysis.ipynb) as there are indepth reasonings and explanations behind the plots generated and their resulting analysis. 
